@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+// .hero-section {
+//   background: url("../img/bg_txtr.jpg")repeat center center;
+//   background-size: 250px;
+// }
+
+.hero {
+  width: 25%;
+  min-width: 250px;
+  max-width: 450px;
+}
+
+.navbar {
+  background-color: white;
+  box-shadow: none;
+  & .navbar-brand, .nav-link {
+    color: #c99f69;
+  }
+}
+
+.navbar-brand {
+  font-family: 'bangers';
+  padding: 0 5px;
+}
+
+.navbar-toggler {
+  color: blue
+}
+
+.title {
+  font-family: 'bangers';
+  font-size: 4em;
+  color: #c99f69;
+}
+
+.bg-light {
+  background-color: rgba(245, 241, 241, 0.836) !important;
+}
+
