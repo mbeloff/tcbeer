@@ -1,1 +1,13 @@
 @import '_nav.scss';
+@import '_news.scss';
+
+
+
+
+//---------- global styles -----------//
+
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+.bg-light {
+  background-color: rgba(245, 241, 241, 0.836) !important;
+}
