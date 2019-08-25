@@ -21,7 +21,7 @@
 }
 
 .navbar.scrolling-navbar {
-  transition:background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
   padding-top:20px;
   padding-bottom:20px
 }
@@ -38,6 +38,12 @@
   font-family: 'bangers';
   font-size: 4em;
   color: #c99f69;
+}
+
+.active .nav-link {
+  background: none !important;
+  border-radius: 5px;
+  color: #bc935e !important;
 }
 
 
